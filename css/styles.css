@@ -661,7 +661,10 @@ a {
     cursor: pointer;
     position: relative;
     right: 3rem;
-    bottom: -1.2rem;
+    bottom: -2.2rem;
+}
+.footer__button:hover {
+    box-shadow: 1px 1px 1px 1px rgb(100, 100, 100);
 }
 .footer__contente {
     display: flex;
@@ -684,7 +687,7 @@ a {
     }
     .footer__input {
         padding: 2rem;
-        width: 90%;
+        width: 100%;
         height: 4.5rem;
     }
 }
