@@ -4,10 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Emigrar</title>
+    <title>Campus Global - EmigrArg</title>
     <link href="/css/normalize.css">
     <link rel="stylesheet" href="/css/styles.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16x16.png">
+    <link rel="manifest" href="/assets/site.webmanifest">
 </head>
 <body>
     <header>
@@ -34,7 +39,7 @@
         <h2 class="title--cg contenedor1">Campus Global</h2>
 
         <article class="contenedor1 article--cg">
-            <p class="paragraph--cg">Campus Global es una pagina del gobierno argentino en que estan todas las becas estudiantiles correspondientes a distintos acuerdos entre paises.<br> A estas becas pueden aplicar quienes quieran cursar sus estudios en otro pais, las becas son para carreras universitarias, pasantias, investigaciones, cursos, masters, entre otros.<br> Hay becas disponibles para decenas de paises de America, Europa, Asia, Africa y Oceania.<br> Los beneficios de las becas dependen de cada institución, varian desde manutenciones, pasajes, alojamiento incluido hasta solo descuentos en la cuota Universitaria.<br> Esta es una gran oportunidad para quienes quieren seguir estudiando y a la vez emigrar y conocer nuevos paises y culturas.</p>
+            <p class="paragraph--cg"><b>Campus Global</b> es una pagina del gobierno argentino en que estan todas las becas estudiantiles correspondientes a distintos acuerdos entre paises.<br> A estas becas pueden aplicar quienes quieran cursar sus <b>estudios en otro pais</b>, las becas son para carreras universitarias, pasantias, investigaciones, cursos, masters, entre otros.<br> Hay becas disponibles para decenas de paises de <b>America, Europa, Asia, Africa y Oceania.</b><br> Los beneficios de las becas dependen de cada institución, varian desde manutenciones, pasajes, alojamiento incluido hasta solo descuentos en la cuota Universitaria.<br> Esta es una gran oportunidad para quienes quieren <b>seguir estudiando y a la vez emigrar</b> y conocer nuevos paises y culturas.</p>
 
             <p class="paragraph--cg"><b>Pagina Web:</b> &nbsp<a class="link--cg" href="https://campusglobal.educacion.gob.ar/">Campus Global</a></p>
         </article>
@@ -43,7 +48,9 @@
     <footer class="footer">
         <div class="footer__content">
             <div class="footer__princ">
-                <a href="../index.html"><div class="footer__logo"></div></a>
+                <a href="index.html">
+                    <div class="footer__logo"></div>
+                </a>
                 <p class="footer__subtitle">Todos los derechos reservados 2021</p>
             </div>
 
@@ -51,7 +58,8 @@
                 <h3 class="footer__title">Contactame</h3>
                 <p class="footer__paragraph">Escribime</p>
                 <div class="footer__links">
-                    <a class="footer__link" href="mailto:gastonartigau@gmail.com" target="_blank">gastonartigau@gmail.com</a>
+                    <a class="footer__link" href="mailto:gastonartigau@gmail.com"
+                        target="_blank">gastonartigau@gmail.com</a>
                 </div>
             </div>
 
@@ -59,20 +67,28 @@
                 <h3 class="footer__title">Seguime</h3>
                 <div class="footer__links--follow">
                     <a class="footer__link" target="_blank" href="https://twitter.com/Gaston_Artigau">Twitter</a>
-                    <a class="footer__link" target="_blank" href="https://www.youtube.com/channel/UCerThjTYfurBsLOHsxcbw1g/featured">Youtube</a>
-                    <a class="footer__link" target="_blank" href="https://www.linkedin.com/in/gaston-artigau/">LinkedIn</a>
-                    <a class="footer__link" target="_blank" href="https://www.instagram.com/gaston_artigau/">Instagram</a>
+                    <a class="footer__link" target="_blank"
+                        href="https://www.youtube.com/channel/UCerThjTYfurBsLOHsxcbw1g/featured">Youtube</a>
+                    <a class="footer__link" target="_blank"
+                        href="https://www.linkedin.com/in/gaston-artigau/">LinkedIn</a>
+                    <a class="footer__link" target="_blank"
+                        href="https://www.instagram.com/gaston_artigau/">Instagram</a>
                 </div>
             </div>
 
             <div class="footer__suscribe">
-                <h3 class="footer__title footer__title--suscribe">Suscríbete para recibir más noticias,<br> recomendaciones, etc.</h3>
+                <h3 class="footer__title footer__title--suscribe">Suscríbete para recibir más noticias,<br>
+                    recomendaciones, etc.</h3>
 
-                <div class="footer__contente">
-                    <input class="footer__input" type="mail" value="" placeholder="Ingresa tu correo electrónico">
-                    
-                    <div class="footer__button"></div>
-                </div>
+                    <form class="footer__contente" name="contact" method="POST" data-netlify="true">
+                        <p>
+                          <input placeholder="Ingresa tu correo electrónico" class="footer__input" type="email" name="email" />
+                        </p>
+                        <p>
+                          <div type="submit" class="footer__button"></div>
+                        </p>
+                    </form>
+                      
             </div>
 
         </div>
