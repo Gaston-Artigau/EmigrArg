@@ -916,6 +916,7 @@ a {
     display: grid;
     grid-template-columns: repeat(2, 40% 60%);
     margin-top: 5rem;
+    min-height: 70vh;
 }
 @media (max-width: 768px) {
     .section--au {
@@ -935,7 +936,7 @@ a {
     display: grid;
     grid-template-columns: repeat(2, 40% 60%);
     margin-top: 5rem;
-    margin-bottom: 13rem;
+    min-height: 70vh;
 }
 .content--ct {
     margin-left: 6rem;
