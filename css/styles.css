@@ -1675,11 +1675,11 @@ a {
 /* Margin responsive articulos */
 
 @media (max-width: 1028px) {
-    .article--wh, .article--mo, .article--wt, .article--merc, .article--por, .article--irl, .article--mal, .article--cg, .article--esp, .article--blog1, .article--blog2, .article--blog3, .article--blog4 {
+    .article--wh, .article--mo, .article--wt, .article--merc, .article--por, .article--op, .article--irl, .article--mal, .article--cg, .article--esp, .article--can, .article--op__study, .article--blog1, .article--blog2, .article--blog3, .article--blog4 {
         margin-left: 1rem;
         margin-right: 1rem;
     }
-    .title--wh, .title--mo, .title--wt, .title--merc, .title--por, .title--irl, .title--mal, .article--cg, .article--esp, .article--blog1, .article--blog2, .article--blog3, .article--blog4 {
+    .title--wh, .title--mo, .title--wt, .title--merc, .title--por, .title--op .title--irl, .title--mal, .title--cg, .title--esp, .title--can, .title--op__study, .title--blog1, .title--blog2, .title--blog3, .title--blog4 {
         margin-left: 1rem;
     }
 }
