@@ -110,29 +110,4 @@
   <priority>0.8</priority>
   <lastmod>2022-02-14</lastmod>
 </url>
-<url>
-  <loc>https://emigrarg.netlify.app/../index.html</loc>
-  <priority>1.0</priority>
-  <lastmod>2022-02-14</lastmod>
-</url>
-<url>
-  <loc>https://emigrarg.netlify.app/../destinations.html</loc>
-  <priority>1.0</priority>
-  <lastmod>2022-02-14</lastmod>
-</url>
-<url>
-  <loc>https://emigrarg.netlify.app/../blog.html</loc>
-  <priority>1.0</priority>
-  <lastmod>2022-02-14</lastmod>
-</url>
-<url>
-  <loc>https://emigrarg.netlify.app/../aboutus.html</loc>
-  <priority>1.0</priority>
-  <lastmod>2022-02-14</lastmod>
-</url>
-<url>
-  <loc>https://emigrarg.netlify.app/../contact.html</loc>
-  <priority>1.0</priority>
-  <lastmod>2022-02-14</lastmod>
-</url>
 </urlset>
