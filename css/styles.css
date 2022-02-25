@@ -764,8 +764,7 @@ a {
 .title--des {
     margin-top: 4rem;
     margin-bottom: 4rem;
-    margin-left: 2rem;
-    margin-right: 2rem;
+    margin-left: 1rem;
     display: flex;
     justify-content: center;
     font-size: 4.5rem;
