@@ -777,6 +777,7 @@ a {
     font-size: 1.7rem;
     margin: 0 7% 13rem 7%;
     color: rgba(0, 0, 0, 0.719);
+    text-align: center;
 }
 
 @media (max-width: 480px) {
