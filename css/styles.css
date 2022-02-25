@@ -1991,15 +1991,19 @@ a {
     }
 }
 
-
+/* borders headers */
 .header-blog{
     padding-bottom: 6rem;
     margin-bottom: 6rem;
     border-bottom: 1px solid rgb(82, 82, 82);
 }
-
 .header-aboutus{
     padding-bottom: 6rem;
     margin-bottom: 6rem;
+    border-bottom: 1px solid rgb(82, 82, 82);
+}
+.header-contact{
+    padding-bottom: 6rem;
+    margin-bottom: 8rem;
     border-bottom: 1px solid rgb(82, 82, 82);
 }
