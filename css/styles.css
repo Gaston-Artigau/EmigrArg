@@ -1990,3 +1990,16 @@ a {
         margin-left: 1rem;
     }
 }
+
+
+.header-blog{
+    padding-bottom: 6rem;
+    margin-bottom: 6rem;
+    border-bottom: 1px solid rgb(82, 82, 82);
+}
+
+.header-aboutus{
+    padding-bottom: 6rem;
+    margin-bottom: 6rem;
+    border-bottom: 1px solid rgb(82, 82, 82);
+}
