@@ -41,6 +41,11 @@ body::-webkit-scrollbar-thumb:active {
     background-color: #6c63ff;
 }
 
+h1::selection, h2::selection, p::selection, img::selection, h3::selection, a::selection, span::selection, li::selection {
+    background-color: #203ddf;
+    color: rgb(226, 226, 226);
+}
+
 .contenedor {
     max-width: 120rem;
     margin: 0 auto;
@@ -114,7 +119,7 @@ a {
     left: 0;
     width: 100%;
     height: 3px;
-    background: linear-gradient(to right, #2426ce, #4a48e0, #7776d3);
+    background: linear-gradient(to right, #14155c, #24378d, #516ea5);
     z-index: 1;
     transform: scaleX(0);
     transform-origin: left;
@@ -164,7 +169,7 @@ a {
         width: 100%;
         height: 100vh;
         top: 65px;
-        background: rgb(41, 41, 41);
+        background: rgb(20, 20, 20);
         z-index: 10;
         left: -100%;
         text-align: center;
@@ -240,7 +245,7 @@ a {
 
 .section2 {
     margin-bottom: 12rem;
-    margin-top: 15rem;
+    margin-top: 10rem;
 }
 
 .section2__title {
@@ -550,7 +555,7 @@ a {
 /* Section 4 */
 
 .section4 {
-    margin-bottom: 15rem;
+    margin-bottom: 8rem;
 }
 
 .section4__content {
@@ -776,7 +781,7 @@ a {
     display: flex;
     justify-content: center;
     font-size: 1.7rem;
-    margin: 0 7% 13rem 7%;
+    margin: 0 7% 8rem 7%;
     color: rgba(0, 0, 0, 0.719);
     text-align: center;
 }
@@ -794,7 +799,7 @@ a {
 /* Work Section */ 
 
 .section--des {
-    margin-bottom: 15rem;
+    margin-bottom: 10rem;
     margin-left: 1rem;
 }
 
@@ -1050,6 +1055,7 @@ a {
 
 .content--ct {
     margin-left: 6rem;
+    margin-bottom: 5rem;
 }
 
 .title--ct {
@@ -1184,7 +1190,7 @@ a {
 }
 
 .subtitle1--mo {
-    font-size: 1.6rem;
+    font-size: 1.9rem;
     margin-bottom: 1.5rem;
     margin-top: 5rem;
     color: var(--light-blue);
@@ -1786,7 +1792,7 @@ a {
 }
 
 .subtitle--blog3 {
-    font-size: 2.4rem;
+    font-size: 2.2rem;
     margin-bottom: 3rem;
     margin-top: 5rem;
     color: rgb(68, 66, 145);
@@ -2015,4 +2021,11 @@ a {
     padding-bottom: 6rem;
     margin-bottom: 9rem;
     border-bottom: 1px solid rgb(82, 82, 82);
+}
+
+/* Title of articles responsives  */
+@media (max-width: 480px) {
+    .title--wh, .title--mo, .title--wt, .title--merc, .title--por, .title--op, .title--irl, .title--mal, .title--cg, .title--esp, .title--can, .title--op__study, .title--blog1, .title--blog2, .title--blog3, .title--blog4, .title--blog5 {
+        font-size: 3.2rem;
+    }
 }
