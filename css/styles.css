@@ -398,7 +398,7 @@ a {
     background-color: rgb(226, 226, 226);
     margin-bottom: 6rem;
     margin-left: 1.5rem;
-    border-radius: 3px;
+    border-radius: 5px;
 }
 
 @media (max-width: 768px) {
@@ -428,7 +428,7 @@ a {
 .section3__img {
     width: 41rem;
     height: 22.5rem;
-    border-radius: 3px;
+    border-radius: 5px;
 }
 
 .section3__article--1,
@@ -1514,7 +1514,7 @@ a {
 /* Campus Global */
 
 .img--cg {
-    background-image: url(../img/campus_global.jpg);
+    background-image: url(../img/campus_global.png);
     width: 100%;
     height: 35rem;
     background-position: center center;
