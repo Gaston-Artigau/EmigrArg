@@ -227,7 +227,7 @@ a {
 
 .section1__title {
     color: rgb(255, 255, 255);
-    font-size: 7rem;
+    font-size: 6rem;
     float: left;
     margin-left: 1rem;
     position: relative;
@@ -251,6 +251,7 @@ a {
 .section2__title {
     font-size: 4rem;
     margin-bottom: 5rem;
+    margin-left: 1rem;
 }
 
 .section2__content {
@@ -272,6 +273,7 @@ a {
     font-size: 1.8rem;
     padding: 0 1.5rem;
     color: rgba(0, 0, 0, 0.719);
+    transition: all .5s;
 }
 
 .section2__title--destino1:hover {
@@ -302,7 +304,6 @@ a {
     margin: 0;
     justify-content: center;
     font-size: 1.3rem;
-    text-transform: uppercase;
 }
 
 .section2__destinos {
@@ -315,10 +316,11 @@ a {
     background-color: #6c63ff;
     color: #fff;
     border-radius: 25px;
-    padding: 2rem 4rem;
+    padding: 1.7rem 3rem;
     font-weight: bold;
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     margin-top: 2rem;
+    transition: all .5s;
 }
 
 .section2__button:hover {
@@ -419,6 +421,7 @@ a {
     color: #000;
     padding-left: 2rem;
     padding-right: 2rem;
+    transition: all .5s;
 }
 
 .section3__description--article:hover {
@@ -463,6 +466,7 @@ a {
     border: 2px solid black;
     border-radius: 4rem;
     padding: 1.5rem 3.1rem;
+    transition: all .5s;
 }
 
 .section3__button1:hover {
@@ -611,7 +615,6 @@ a {
     border: none;
     font-size: 1.7rem;
     padding: 1.3rem;
-    text-transform: uppercase;
     font-weight: bold;
     position: relative;
     display: flex;
@@ -621,6 +624,7 @@ a {
     color: #fff;
     margin-top: 4rem;
     margin: 4rem auto;
+    transition: all .5s;
 }
 
 .section4__button:hover {
@@ -678,6 +682,7 @@ a {
     text-decoration: none;
     color: #B8B8B8;
     font-size: 1.5rem;
+    transition: all .5s;
 }
 
 .footer__link:hover {
@@ -732,10 +737,6 @@ a {
     bottom: -2.2rem;
 }
 
-.footer__button:hover {
-    box-shadow: 1px 1px 1px 1px rgb(100, 100, 100);
-}
-
 .footer__contente {
     display: flex;
 }
@@ -772,7 +773,7 @@ a {
     margin-left: 1rem;
     display: flex;
     justify-content: center;
-    font-size: 4.5rem;
+    font-size: 4rem;
     color: rgba(0, 0, 0, 0.719);
     text-align: center;
 }
@@ -783,7 +784,7 @@ a {
     font-size: 1.7rem;
     margin: 0 7% 8rem 7%;
     color: rgba(0, 0, 0, 0.719);
-    text-align: center;
+    text-align: left;
 }
 
 @media (max-width: 480px) {
@@ -806,7 +807,7 @@ a {
 .section__title--des {
     margin-bottom: 5rem;
     color: rgba(0, 0, 0, 0.719);
-    font-size: 2.2rem;
+    font-size: 2.4rem;
 }
 
 .work--des {
@@ -916,7 +917,7 @@ a {
 .title--bg {
     display: flex;
     justify-content: center;
-    font-size: 5rem;
+    font-size: 4.3rem;
     margin-bottom: 0;
     margin-left: 1rem;
     color: rgba(0, 0, 0, 0.719);
@@ -925,7 +926,7 @@ a {
 .description--bg {
     display: flex;
     justify-content: center;
-    font-size: 2rem;
+    font-size: 1.8rem;
     font-style: italic;
     margin-bottom: 7rem;
     margin-left: 1rem;
@@ -960,8 +961,9 @@ a {
     margin-right: 1rem;
     border: 1px solid rgb(110, 110, 110);
     border-radius: 5px;
-    box-shadow: 0 2px 5px 5px rgb(136, 136, 136);
+    box-shadow: 0 2px 5px 2px rgb(136, 136, 136);
     background-color: #e9e9e9;
+    transition: all .5s;
 }
 
 .content--bg {
@@ -973,8 +975,9 @@ a {
 }
 
 .article__title--bg {
-    font-size: 2.3rem;
+    font-size: 2rem;
     color: var(--black);
+    transition: all .4s;
 }
 
 .article__title--bg:hover {
@@ -982,7 +985,7 @@ a {
 }
 
 .article--bg:hover {
-    box-shadow: 0 9px 20px 8px rgb(95, 95, 95);
+    box-shadow: 0 5px 15px 5px rgb(146, 146, 146);
 }
 
 .article__description--bg {
@@ -1017,7 +1020,8 @@ a {
 /* About Us */
 
 .title--au {
-    font-size: 5rem;
+    font-size: 4rem;
+    margin-top: 5px;
 }
 
 .description--au {
@@ -1059,7 +1063,7 @@ a {
 }
 
 .title--ct {
-    font-size: 5rem;
+    font-size: 4.3rem;
 }
 
 .description--ct {
@@ -1070,6 +1074,10 @@ a {
 .content__social--ct {
     display: flex;
     gap: 2rem;
+}
+
+.img--ct {
+    margin-left: 2rem;
 }
 
 .icon:hover {
@@ -1089,6 +1097,9 @@ a {
     }
     .title--ct {
         font-size: 4rem;
+    }
+    .img--ct {
+        margin-left: 0;
     }
 }
 
@@ -2003,7 +2014,7 @@ a {
 /* borders headers */
 .header-blog{
     padding-bottom: 6rem;
-    margin-bottom: 6rem;
+    margin-bottom: 5rem;
     border-bottom: 1px solid rgb(82, 82, 82);
 }
 .header-aboutus{
@@ -2013,13 +2024,13 @@ a {
 }
 .header-contact{
     padding-bottom: 6rem;
-    margin-bottom: 8rem;
+    margin-bottom: 5rem;
     border-bottom: 1px solid rgb(82, 82, 82);
 }
 
 .header-destinations{
     padding-bottom: 6rem;
-    margin-bottom: 9rem;
+    margin-bottom: 5rem;
     border-bottom: 1px solid rgb(82, 82, 82);
 }
 
